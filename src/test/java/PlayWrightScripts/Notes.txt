@@ -1,0 +1,10 @@
+PWDEBUG
+
+
+
+Xpath Union ===> //span[contains(text(),'Login')] | //span[contains(text(),'SignIn')]
+
+
+Visible =====> page.locator("a:visible"); 
+or
+page.locator("a>>visible"); 
